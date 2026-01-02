@@ -1,0 +1,43 @@
+/**
+ * <copyright>
+ * </copyright>
+ *
+ * $Id$
+ */
+package eu.kalafatic.maintain.model.maintain.impl;
+
+import eu.kalafatic.maintain.model.maintain.Machine;
+import eu.kalafatic.maintain.model.maintain.MaintainPackage;
+
+import org.eclipse.emf.ecore.EClass;
+
+/**
+ * <!-- begin-user-doc -->
+ * An implementation of the model object '<em><b>Machine</b></em>'.
+ * <!-- end-user-doc -->
+ * <p>
+ * </p>
+ *
+ * @generated
+ */
+public class MachineImpl extends NodeImpl implements Machine {
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected MachineImpl() {
+		super();
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected EClass eStaticClass() {
+		return MaintainPackage.Literals.MACHINE;
+	}
+
+} //MachineImpl
