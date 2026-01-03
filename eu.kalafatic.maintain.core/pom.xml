@@ -2,7 +2,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>eu.kalafatic.maintain.core</groupId>
+	<groupId>eu.kalafatic.maintain</groupId>
 	<artifactId>eu.kalafatic.maintain.core</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<build>
@@ -36,6 +36,12 @@
 			<groupId>org.eclipse.platform</groupId>
 			<artifactId>org.eclipse.jface</artifactId>
 			<version>3.38.100</version>
+		</dependency>
+
+		<dependency>
+			<groupId>eu.kalafatic.utils</groupId>
+			<artifactId>eu.kalafatic.parsers</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
 </project>

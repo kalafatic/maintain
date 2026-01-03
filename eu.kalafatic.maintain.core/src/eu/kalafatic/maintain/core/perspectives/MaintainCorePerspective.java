@@ -72,7 +72,7 @@ public class MaintainCorePerspective implements IPerspectiveFactory {
 		try {
 			File file = new File(FMaintainConstants.MAINTAIN_XML_PATH);
 			if (!file.exists()) {
-				new FileOutputStream(file).write(("<!-- Maintain ® -->").getBytes());
+				new FileOutputStream(file).write(("<!-- Maintain ï¿½ -->").getBytes());
 			}
 			Map<?, ?> project = Parser.getInstance(file).parse();
 
@@ -111,7 +111,7 @@ public class MaintainCorePerspective implements IPerspectiveFactory {
 	 */
 	private void addViewShortcuts(IPageLayout layout) {
 		layout.addShowViewShortcut(IConsoleConstants.ID_CONSOLE_VIEW);
-		layout.addShowViewShortcut(IPageLayout.ID_RES_NAV);
+		layout.addShowViewShortcut(IPageLayout.ID_PROJECT_EXPLORER);
 		layout.addShowViewShortcut(IPageLayout.ID_PROBLEM_VIEW);
 		layout.addShowViewShortcut(IPageLayout.ID_OUTLINE);
 		layout.addShowViewShortcut(IPageLayout.ID_PROP_SHEET);
