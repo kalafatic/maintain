@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>eu.kalafatic.maintain</groupId>
+  <artifactId>eu.kalafatic.maintain.core</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>eclipse-plugin</packaging>
+  <name>eu.kalafatic.maintain.core (Tycho build)</name>
+
+  <properties>
+    <!-- Adjust tycho.version if you have a newer Tycho installed -->
+    <tycho.version>2.7.0</tycho.version>
+    <tycho.target.file>${project.basedir}/target-platform/target-definition.target</tycho.target.file>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-maven-plugin</artifactId>
+        <version>${tycho.version}</version>
+        <configuration>
+          <target>${tycho.target.file}</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
