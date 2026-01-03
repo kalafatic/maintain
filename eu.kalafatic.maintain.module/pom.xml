@@ -3,11 +3,5 @@
   <groupId>eu.kalafatic.maintain</groupId>
   <artifactId>eu.kalafatic.maintain.module</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-  <dependencies>
-  <dependency>
-  <groupId>eu.kalafatic.maintain.core</groupId>
-  <artifactId>eu.kalafatic.maintain.module</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  </dependency></dependencies>
+
 </project>

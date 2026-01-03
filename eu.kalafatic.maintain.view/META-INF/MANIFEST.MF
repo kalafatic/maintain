@@ -10,12 +10,10 @@ Require-Bundle: eu.kalafatic.maintain.controller;bundle-version="1.0.0";visibili
  eu.kalafatic.utils,
  org.eclipse.ui.workbench
 Bundle-ActivationPolicy: lazy
-Bundle-RequiredExecutionEnvironment: JavaSE-25
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Export-Package: eu.kalafatic.maintain.view,
  eu.kalafatic.maintain.view.views.pages
-Import-Package: eu.kalafatic.parsers.interfaces,
- eu.kalafatic.parsers.main,
- org.eclipse.core.filesystem,
+Import-Package: org.eclipse.core.filesystem,
  org.eclipse.core.resources,
  org.eclipse.draw2d,
  org.eclipse.emf.common.ui.viewer,
