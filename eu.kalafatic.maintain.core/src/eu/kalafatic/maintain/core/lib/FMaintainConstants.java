@@ -10,6 +10,9 @@
  ******************************************************************************/
 package eu.kalafatic.maintain.core.lib;
 
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 import org.eclipse.jface.resource.ImageDescriptor;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.graphics.Color;
@@ -109,9 +112,12 @@ public final class FMaintainConstants {
 
 	/** The Constant ORANGE_COLOR. */
 	public final static Color ORANGE_COLOR = new Color(Display.getDefault(), 255, 100, 50);
+	
+	
+	public final static Path MAINTAIN_XML_PATH = Paths.get(System.getProperty("user.home"), "Projects", "Maintain", "project.xml");
 
 	/** The Constant MAINTAIN_XML_PATH. */
-	public final static String MAINTAIN_XML_PATH = "c:/GE/maintain/project.xml";
+//	public final static String MAINTAIN_XML_PATH = "c:/GE/maintain/project.xml";
 
 	/** The Constant FILTER_PATH. */
 	public final static String FILTER_PATH = "FILTER_PATH";

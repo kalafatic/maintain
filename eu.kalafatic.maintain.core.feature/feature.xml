@@ -2,7 +2,7 @@
 <feature
       id="eu.kalafatic.maintain.core.feature"
       label="Maintain - Core Feature"
-      version="3.0.0.qualifier"
+      version="0.0.1.qualifier"
       provider-name="Petr Kalafatic">
 
    <description url="http://www.example.com/description">

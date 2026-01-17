@@ -66,9 +66,9 @@ public class ProjectNavigator extends ATreeViewer {
 
 			// ((TreeViewer) viewer).setLabelProvider(provider);
 
-			File file = new File(FMaintainConstants.MAINTAIN_XML_PATH);
+			File file = new File(FMaintainConstants.MAINTAIN_XML_PATH.toString());
 			if (!file.exists()) {
-				new FileOutputStream(file).write(("<!-- Maintain ® -->").getBytes());
+				new FileOutputStream(file).write(("<!-- Maintain ï¿½ -->").getBytes());
 			}
 			Map<?, ?> project = Parser.getInstance(file).parse();
 			//

@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: View
 Bundle-SymbolicName: eu.kalafatic.maintain.view;singleton:=true
-Bundle-Version: 3.0.0.qualifier
+Bundle-Version: 0.0.1.qualifier
 Bundle-Activator: eu.kalafatic.maintain.view.Activator
 Require-Bundle: eu.kalafatic.maintain.controller;bundle-version="1.0.0";visibility:=reexport,
  org.eclipse.ui,
@@ -10,7 +10,7 @@ Require-Bundle: eu.kalafatic.maintain.controller;bundle-version="1.0.0";visibili
  eu.kalafatic.utils,
  org.eclipse.ui.workbench
 Bundle-ActivationPolicy: lazy
-Bundle-RequiredExecutionEnvironment: JavaSE-21
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Export-Package: eu.kalafatic.maintain.view,
  eu.kalafatic.maintain.view.views.pages
 Import-Package: org.eclipse.core.filesystem,

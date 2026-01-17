@@ -70,7 +70,7 @@ public class MaintainCorePerspective implements IPerspectiveFactory {
 		addNewWizardShortcuts(layout);
 
 		try {
-			File file = new File(FMaintainConstants.MAINTAIN_XML_PATH);
+			File file = new File(FMaintainConstants.MAINTAIN_XML_PATH.toString());
 			if (!file.exists()) {
 				new FileOutputStream(file).write(("<!-- Maintain � -->").getBytes());
 			}

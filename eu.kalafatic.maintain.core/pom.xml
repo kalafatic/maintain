@@ -5,6 +5,7 @@
 	<groupId>eu.kalafatic.maintain</groupId>
 	<artifactId>eu.kalafatic.maintain.core</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>eclipse-plugin</packaging>
 	
 	<name>eu.kalafatic.maintain.core</name>
 	<build>
@@ -32,6 +33,13 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<extensions>
+			<extension>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>4.0.5</version>
+			</extension>
+		</extensions>
 	</build>
 	<dependencies>
 		<dependency>

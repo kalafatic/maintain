@@ -3,8 +3,16 @@
   <groupId>eu.kalafatic.maintain</groupId>
   <artifactId>eu.kalafatic.maintain.servers</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>eclipse-plugin</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
+    <extensions>
+      <extension>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-maven-plugin</artifactId>
+        <version>4.0.5</version>
+      </extension>
+    </extensions>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
